@@ -50,6 +50,66 @@
                 <button id="autoRefreshBtn" class="control-btn" onclick="toggleAutoRefresh()" disabled>
                     ⏰ 自动刷新
                 </button>
+                <button id="backBtn" class="control-btn" onclick="tagBack()" >
+                     ⬅️ 回退标记
+                </button>
+                <script>
+                    async function tagBack() {
+                        try {
+                            const response = await fetch('http://localhost:9001/tagback', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                },
+                                body: JSON.stringify({}), // 空请求体
+                            });
+                
+                            if (response.ok) {
+                                const result = await response.json();
+                                console.log('成功:', result);
+                                alert(`${result.message}`);
+                            } else {
+                                const error = await response.json();
+                                console.error('失败:', error);
+                                alert(`标记失败: ${error.detail}`);
+                            }
+                        } catch (error) {
+                            console.error('请求错误:', error);
+                            alert(`标记回退错误: ${error.message || '未知错误'}`);
+                        }
+                    }
+                </script>
+                <button id="DoneBtn" class="control-btn" onclick="tagDone()" >
+                    👌 完成标记
+               </button>
+               <script>
+                async function tagDone() {
+                    try {
+                        const response = await fetch('http://localhost:9001/tagdone', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({}), // 空请求体
+                        });
+            
+                        if (response.ok) {
+                            const result = await response.json();
+                            console.log('成功:', result);
+                            alert(`${result.message}`);
+                        } else {
+                            const error = await response.json();
+                            console.error('失败:', error);
+                            alert(`标记失败: ${error.detail}`);
+                        }
+                    } catch (error) {
+                        console.error('请求错误:', error);
+                        alert(`标记回退错误: ${error.message || '未知错误'}`);
+                    }
+                }
+            </script>
+
+
             </div>
 
             <!-- 自动刷新状态显示 -->
