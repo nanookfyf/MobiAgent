@@ -1,0 +1,40 @@
+[
+    {
+        "reasoning": "为了搜索“科目三舞蹈原版”，我需要先点击屏幕顶部的搜索框来输入文本。",
+        "function": {
+            "name": "click",
+            "parameters": {
+                "target_element": "搜索框，当前显示“崩坏星穹铁道”"
+            }
+        },
+        "action_index": 1
+    },
+    {
+        "reasoning": "现在搜索框已被激活，我将输入任务要求的搜索内容“科目三舞蹈原版”。",
+        "function": {
+            "name": "input",
+            "parameters": {
+                "text": "科目三舞蹈原版"
+            }
+        },
+        "action_index": 2
+    },
+    {
+        "reasoning": "输入完搜索词后，我需要点击搜索按钮来执行搜索操作。",
+        "function": {
+            "name": "click",
+            "parameters": {
+                "target_element": "搜索按钮"
+            }
+        },
+        "action_index": 3
+    },
+    {
+        "reasoning": "我已经成功搜索了“科目三舞蹈原版”，并且搜索结果已经显示在屏幕上。任务已经完成。",
+        "function": {
+            "name": "done",
+            "parameters": {}
+        },
+        "action_index": 4
+    }
+]

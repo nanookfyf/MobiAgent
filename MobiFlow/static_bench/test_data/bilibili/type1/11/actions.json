@@ -1,0 +1,57 @@
+{
+    "app_name": "bilibili",
+    "task_type": null,
+    "old_task_description": "帮我在B站搜索海龟汤",
+    "task_description": [
+        "在B站上搜索海龟汤",
+        "搜索一下海龟汤",
+        "帮我找一下关于海龟汤的内容",
+        "我想搜海龟汤",
+        "打开B站搜索海龟汤",
+        "用B站搜一下海龟汤",
+        "我想在B站上找找海龟汤",
+        "打开B站搜索海龟汤",
+        "用B站搜一下海龟汤",
+        "我想在B站上找找海龟汤"
+    ],
+    "action_count": 5,
+    "actions": [
+        {
+            "type": "wait",
+            "action_index": 1
+        },
+        {
+            "type": "click",
+            "position_x": 550,
+            "position_y": 208,
+            "bounds": [
+                260,
+                152,
+                840,
+                264
+            ],
+            "action_index": 2
+        },
+        {
+            "type": "input",
+            "text": "海龟汤",
+            "action_index": 3
+        },
+        {
+            "type": "click",
+            "position_x": 1127,
+            "position_y": 201,
+            "bounds": [
+                1052,
+                148,
+                1202,
+                254
+            ],
+            "action_index": 4
+        },
+        {
+            "type": "done",
+            "action_index": 5
+        }
+    ]
+}

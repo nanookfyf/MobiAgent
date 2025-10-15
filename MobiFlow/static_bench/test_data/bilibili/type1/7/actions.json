@@ -1,0 +1,52 @@
+{
+    "app_name": "bilibili",
+    "task_type": "type1",
+    "task_description": [
+        "在B站搜一下“三伏天避暑指南”",
+        "搜索一下“三伏天避暑指南”",
+        "查找关于“三伏天避暑指南”的视频",
+        "我想看和“三伏天避暑指南”相关的内容",
+        "在bilibili里面搜索“三伏天避暑指南”",
+        "打开B站，帮我搜一下“三伏天避暑指南”",
+        "用哔哩哔哩查找“三伏天避暑指南”的视频",
+        "在bilibili里面搜索三伏天避暑指南",
+        "打开B站帮我搜一下三伏天避暑指南",
+        "用哔哩哔哩查找三伏天避暑指南的视频"
+    ],
+    "action_count": 4,
+    "actions": [
+        {
+            "type": "click",
+            "position_x": 573,
+            "position_y": 225,
+            "bounds": [
+                213,
+                153,
+                840,
+                255
+            ],
+            "action_index": 1
+        },
+        {
+            "type": "input",
+            "text": "三伏天避暑指南",
+            "action_index": 2
+        },
+        {
+            "type": "click",
+            "position_x": 1068,
+            "position_y": 216,
+            "bounds": [
+                960,
+                144,
+                1152,
+                246
+            ],
+            "action_index": 3
+        },
+        {
+            "type": "done",
+            "action_index": 4
+        }
+    ]
+}

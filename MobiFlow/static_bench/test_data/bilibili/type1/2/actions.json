@@ -1,0 +1,52 @@
+{
+    "app_name": "bilibili",
+    "task_type": "type1",
+    "task_description": [
+        "在B站搜一下“崩坏星穹铁道2.4”",
+        "搜索一下“崩坏星穹铁道2.4”",
+        "查找关于“崩坏星穹铁道2.4”的内容",
+        "帮我搜“崩坏星穹铁道2.4”这个关键词",
+        "在bilibili上搜索“崩坏星穹铁道2.4”",
+        "打开B站，查找“崩坏星穹铁道2.4”",
+        "用bilibili搜一下“崩坏星穹铁道2.4”相关的内容",
+        "在bilibili上搜索崩坏星穹铁道2.4",
+        "打开B站查找崩坏星穹铁道2.4",
+        "用bilibili搜一下崩坏星穹铁道2.4相关的内容"
+    ],
+    "action_count": 4,
+    "actions": [
+        {
+            "type": "click",
+            "position_x": 543,
+            "position_y": 190,
+            "bounds": [
+                213,
+                153,
+                840,
+                255
+            ],
+            "action_index": 1
+        },
+        {
+            "type": "input",
+            "text": "崩坏星穹铁道2.4",
+            "action_index": 2
+        },
+        {
+            "type": "click",
+            "position_x": 1098,
+            "position_y": 193,
+            "bounds": [
+                960,
+                144,
+                1152,
+                246
+            ],
+            "action_index": 3
+        },
+        {
+            "type": "done",
+            "action_index": 4
+        }
+    ]
+}

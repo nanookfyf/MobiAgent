@@ -1,0 +1,52 @@
+{
+    "app_name": "bilibili",
+    "task_type": "type1",
+    "task_description": [
+        "在B站搜一下“黑神话悟空最新实机”",
+        "搜索一下“黑神话悟空最新实机”",
+        "帮我找一下“黑神话悟空最新实机”的相关视频",
+        "查询关于“黑神话悟空最新实机”的内容",
+        "在bilibili上搜索“黑神话悟空最新实机”",
+        "打开B站，搜一下“黑神话悟空最新实机”",
+        "用bilibili查一下“黑神话悟空最新实机”",
+        "在bilibili上搜索黑神话悟空最新实机",
+        "打开B站搜一下黑神话悟空最新实机",
+        "用bilibili查一下黑神话悟空最新实机"
+    ],
+    "action_count": 4,
+    "actions": [
+        {
+            "type": "click",
+            "position_x": 482,
+            "position_y": 222,
+            "bounds": [
+                213,
+                153,
+                840,
+                255
+            ],
+            "action_index": 1
+        },
+        {
+            "type": "input",
+            "text": "黑神话悟空最新实机",
+            "action_index": 2
+        },
+        {
+            "type": "click",
+            "position_x": 1080,
+            "position_y": 204,
+            "bounds": [
+                960,
+                144,
+                1152,
+                246
+            ],
+            "action_index": 3
+        },
+        {
+            "type": "done",
+            "action_index": 4
+        }
+    ]
+}

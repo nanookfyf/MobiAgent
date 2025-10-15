@@ -1,0 +1,40 @@
+[
+    {
+        "reasoning": "我需要搜索“华为Mate70爆料”，所以第一步是点击屏幕顶部的搜索栏，准备输入文本。",
+        "function": {
+            "name": "click",
+            "parameters": {
+                "target_element": "包含“三伏天养生”文本的搜索栏"
+            }
+        },
+        "action_index": 1
+    },
+    {
+        "reasoning": "在点击搜索栏后，键盘已经弹出。我现在输入我的搜索关键词“华为Mate70爆料”。",
+        "function": {
+            "name": "input",
+            "parameters": {
+                "text": "华为Mate70爆料"
+            }
+        },
+        "action_index": 2
+    },
+    {
+        "reasoning": "我已经输入了搜索词，现在我需要点击搜索按钮来执行搜索。",
+        "function": {
+            "name": "click",
+            "parameters": {
+                "target_element": "搜索按钮"
+            }
+        },
+        "action_index": 3
+    },
+    {
+        "reasoning": "我已经成功搜索了“华为Mate70爆料”，并且搜索结果已经呈现在当前页面，任务已经完成。",
+        "function": {
+            "name": "done",
+            "parameters": {}
+        },
+        "action_index": 4
+    }
+]
